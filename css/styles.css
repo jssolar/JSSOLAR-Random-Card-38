@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    place-content: center;
     font-size: 62.5%;  /*1 remm = 10px*/
 }
 
@@ -36,11 +37,11 @@ body {
 
   #pinta {
     justify-content: start;
-    color: rgb(255, 0, 0);
+    /* color: rgb(255, 0, 0); */
   }
   #pinta {
     justify-content: start;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
   }
 
   .pintaInferiorDerecha{
