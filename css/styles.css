@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /*1 remm = 10px*/
+}
+
+
+body {
+    background-color: green;
+}
+
+
+
+
+.main {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    height: 90vh;
+    width: 400px;
+    margin-left: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .carta  {
+    font-size: 6rem;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+
+
+  #pinta {
+    justify-content: start;
+    color: rgb(255, 0, 0);
+  }
+  #pinta {
+    justify-content: start;
+    color: rgb(0, 0, 0);
+  }
+
+  .pintaInferiorDerecha{
+justify-content: end;  }
+
+
+  h2,  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .numero {
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+  div {
+    display: flex;
+  }
