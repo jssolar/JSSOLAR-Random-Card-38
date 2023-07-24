@@ -35,13 +35,13 @@ body {
   }
 
 
-  #pinta {
+  #pinta3 {
     justify-content: start;
-    /* color: rgb(255, 0, 0); */
+    color: rgb(255, 0, 0);
   }
-  #pinta {
+  #pinta3 {
     justify-content: start;
-    /* color: rgb(0, 0, 0); */
+    color: rgb(0, 0, 0);
   }
 
   .pintaInferiorDerecha{

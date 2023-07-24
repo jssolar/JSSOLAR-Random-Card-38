@@ -7,28 +7,24 @@ const cartaRandom = () => {
 
   let azar = pintas[randomPintas];
   let azar2 = numeros[randomNumeros];
-  // let azar3 = pintas[randomPintas];
   
   document.getElementById("pinta").innerHTML = azar;
   document.getElementById("carta-random").innerHTML = azar2;
   document.getElementById("pinta3").innerHTML = azar;
 
-  let letraColor = getRandomRedOrBlack();
-  document.getElementById("pinta").style.color = letraColor;
-  // document.getElementById("carta-random").style.color = letraColor;
-  document.getElementById("pinta3").style.color = letraColor;
-
-  const getRandomRedOrBlack = () => {
-    // Generar un valor aleatorio entre 0 y 1 para determinar si es rojo o negro
-    let isRed = Math.random() < 0.5;
-  
-    // Asignar el color correspondiente
-    let color = isRed ? "#FF0000" : "#000000";
-    return color;
-  };
 };
 
 cartaRandom();
 
-// let color = Math.random() < 0.5 ? "red" : "black";
-// document.main.style.Color = color;
+
+
+
+    
+
+
+
+ arr = [1,2,3,4,5,6,7,8,9,10]
+ 
+ numeros = Math.floor(Math.random()*arr.length)
+ numeros % 2 ===0 ? (document.getElementById("pinta3").style.color= "back", document.getElementById("pinta").style.color= "black"): (document.getElementById("pinta3").style.color= "red", document.getElementById("pinta").style.color= "red")
+
